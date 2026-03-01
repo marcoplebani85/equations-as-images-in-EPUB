@@ -2,10 +2,11 @@
 # EPUB WITH FORMULAS AS .SVG:
 
 epub_webtex <- \(...) {
-	fmt <- bookdown::epub_book(...)
-	fmt$pandoc$args[format$pandoc$args == "--mathml"] <- "--webtex"
-	fmt
+  fmt <- bookdown::epub_book(...)
+  fmt$pandoc$args[format$pandoc$args == "--mathml"] <- "--webtex"
+  fmt
 }
+
 
 bookdown::render_book(
   input = "index.Rmd",

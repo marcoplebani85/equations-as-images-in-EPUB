@@ -1,7 +1,7 @@
 --- 
-title: My title
+title: A test of equations in EPUB
   
-subtitle: My subtitle
+subtitle: An attemp at converting them to .svg.
 
 author: "Me"
 toc-title: Indice
@@ -29,11 +29,6 @@ header-includes:
 
 This page intentionally blank
 
-
-\newpage
-\thispagestyle{empty}
-
-This page intentionally blank
 
 \newpage
 

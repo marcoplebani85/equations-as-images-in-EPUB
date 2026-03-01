@@ -1,6 +1,6 @@
 # A test of equations in EPUB
 
-I have in-text mathematical formulas such as $\pi$, $\hat\pi$ and $X$ as well as equations such as:
+I have in-text mathematical formulas such as $\hat\pi$ and $X$ as well as equations such as:
 
 \begin{equation}
 \hat\pi = \frac{e^{a + X\cdot b}}{1+e^{a + X\cdot b}}
