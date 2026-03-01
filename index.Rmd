@@ -1,0 +1,62 @@
+--- 
+title: My title
+  
+subtitle: My subtitle
+
+author: "Me"
+toc-title: Indice
+toc_depth: 2
+toc: false
+output: pdf_book
+header-includes:
+  - \usepackage{graphicx}
+  - \usepackage{float}
+  - \usepackage{boxhandler}
+  - \captionStyle{n}{l}
+  - \usepackage[twoside]{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhead{}
+  - \renewcommand{\headrule}{}
+  - \fancyfoot[L]{Title}
+  - \fancyfoot[R]{\copyright Me}
+---
+
+
+
+
+\newpage
+\thispagestyle{empty}
+
+This page intentionally blank
+
+
+\newpage
+\thispagestyle{empty}
+
+This page intentionally blank
+
+\newpage
+
+\renewcommand{\contentsname}{Indice}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\tablename}{Tabella}
+
+\tableofcontents
+
+\newpage
+
+
+```{r message=F, warning=F, echo=F}
+# echo - Display code in output document (default =TRUE)
+# eval - Run code in chunk (default = TRUE)
+rm(list=ls()) # make sure R's environment is clean
+set.seed(1) # for reproducibility of simulations
+# For reading Excel files in R:
+if (!require(readxl)) install.packages('readxl'); library(readxl)
+# for pretty tables:
+if (!require(pander)) install.packages('pander'); library(pander)
+# for pretty graphs:
+if (!require(ggplot2)) install.packages('ggplot2'); library(ggplot2)
+# for AICc:
+if (!require(MuMIn)) install.packages('MuMIn'); library("MuMIn")
+```

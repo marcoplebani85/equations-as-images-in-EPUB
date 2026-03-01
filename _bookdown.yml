@@ -1,0 +1,22 @@
+book_filename: "Title - Author 2026"
+output_dir: docs
+delete_merged_file: true
+language:
+    label:
+        fig: 'Figura '
+        tab: 'Tabella '
+        eq: 'Equazione '
+        thm: 'Teorema '
+        lem: 'Lemma '
+        cor: 'Corollario '
+        prp: 'Proposizione '
+        cnj: 'Congettura '
+        def: 'Definizione '
+        exm: 'Esempio '
+        exr: 'Esercizio '
+        hyp: 'Ipotesi '
+        proof: 'Dimostrazione. '
+        remark: 'Nota bene. '
+        solution: 'Soluzione. '
+    ui:
+        chapter_name: "Capitolo "

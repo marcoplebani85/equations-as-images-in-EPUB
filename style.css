@@ -1,0 +1,35 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+.caption { text-align: left; }
+
+/* h1, h2, h3, h4, p { 
+   page-break-after: avoid !important;  
+   break-after: avoid !important;  
+   page-break-inside: avoid !important; 
+   widows: 3; orphans: 3;
+}*/
+
+/* Apply styles to children of object with id = header */
+#header h1, 
+#header h2, 
+#header h3, 
+#header h4 { 
+  page-break-after: avoid !important;  
+  page-break-inside: avoid !important; 
+  break-after: avoid-page !important;
+  widows: 3 !important; 
+  orphans: 3 !important;
+}

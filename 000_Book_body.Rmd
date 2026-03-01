@@ -1,0 +1,14 @@
+# A test of equations in EPUB
+
+I have in-text mathematical formulas such as $\pi$, $\hat\pi$ and $X$ as well as equations such as:
+
+\begin{equation}
+\hat\pi = \frac{e^{a + X\cdot b}}{1+e^{a + X\cdot b}}
+(\#eq:logisticmod)
+\end{equation}
+
+So far, neither is visualised when I open my EPUB file on my kindle. In their stead there is nothing.
+
+
+
+\newpage
