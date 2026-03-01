@@ -25,8 +25,6 @@ bookdown::render_book(
   )
 )
 
-# Oh boy. What's up with this overwriting frenzy? EPUB readers overwriting EPUB style rules, bookdown overwriting instructions... Anyway: THANK YOU! Your fix worked. You're a gorram UNIT.
-
 # STANDARD EPUB:
 
 bookdown::render_book(input="index.Rmd",
