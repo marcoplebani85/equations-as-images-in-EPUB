@@ -1,1 +1,1 @@
-Reproducible example: trying to avoid page breaks mid title in EPUB with Bookdown. The script in renderbook.R needs to be executed to produce the EPUB file.
+Reproducible example: Kindle readers cannot display equations and formulas properly, or at all. Looking for a way to fix this, perhaps by converting them to svg images.
